@@ -41,7 +41,7 @@ h1{
   margin-right: 22%;
 }
 
-h3 {
+h2{
   font-family: Helvetica, sans-serif;
   font-weight: 700;
   margin-left: -15px;
@@ -51,13 +51,12 @@ h3 {
 
 }
 
-h4 {
+h3 {
   font-family: Helvetica, sans-serif;
   font-weight: 700;
   margin-left: -15px;
   color: var(--pinda);
   margin-bottom: 0.5em;
-
 }
 
 p{
@@ -77,6 +76,11 @@ b{
   font-weight: bold;
 }
 
+main{
+margin-right: 30px;
+margin-bottom: 50px;
+}
+
 .Vini-Mini-img {
   opacity: 30%;
   z-index: -20;
@@ -84,6 +88,7 @@ b{
 
 .logo-img-1{
   width: 300px;
+  padding: 10px;
 }
 
 
@@ -100,9 +105,15 @@ margin-top: 2em;
 }
 
 .Witruimte {
-  margin-bottom: 5em;
+  /* margin-bottom: 5em; */
   width: 233px;
   margin-top: 2em;
+}
+
+.navigatie-logo{
+width:800px;
+margin-top: 30px;
+margin-bottom: 30px;
 }
 /* menu */
 
@@ -302,4 +313,13 @@ margin-left: 45em;
   .toggle{
     display: none;
   }
+main{
+  margin-top: 50px;
+}
+.logo-img-1{
+width: 200px;
+}
+.navigatie-logo{
+width: 300px;
+}
 }

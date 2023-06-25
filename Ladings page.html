@@ -12,7 +12,7 @@
 <nav>
 
 <!-- menu (list - divs) -->
- <div class="container">
+  <div class="container">
   <div class="navigation">
   <ul>
   <li class="list">
@@ -25,7 +25,7 @@
     
   <!--Vini Mini -->
   <li class="list">
-  <a href="/landing page.html">
+  <a href="/Vini Mini.html">
   <span class="icon">
   <ion-icon name="egg-outline"></ion-icon>
   </span>
@@ -84,7 +84,7 @@
   
   <!-- Derde partij -->
   <li class="list">
-  <a href="/derdepartij.html">
+  <a href="/derde-partij.html">
   <span class="icon"><ion-icon name="people-outline"></ion-icon></span>
   <span class="title">Derde partij</span>
   </a>
@@ -129,42 +129,42 @@
   <span class="title">Navigatie</span>
   </a>
   </li>
+  
 
-
-</ul> 
-</div>
-</div>
+  </ul> 
+  </div>
+  </div>
 <!-- menu (list - divs) --> 
 
-<!-- Javascript  -->
-<!-- Installation icon -->
+  <!-- Javascript  -->
+  <!-- Installation icon -->
 
-<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
-<!-- Installation icon -->
-<!-- Javascript  -->
+  <!-- Installation icon -->
+  <!-- Javascript  -->
 
-<script>
+  <script>
 
-// MenuToggle
-let toggle = document.querySelector('.toggle');
-let navigation = document.querySelector('.navigation');
-let main = document.querySelector('.main');
-toggle.onclick = function () {
-navigation.classList.toggle('active');
-main.classList.toggle('active');
-}
+  // MenuToggle
+  let toggle = document.querySelector('.toggle');
+  let navigation = document.querySelector('.navigation');
+  let main = document.querySelector('.main');
+  toggle.onclick = function () {
+  navigation.classList.toggle('active');
+  main.classList.toggle('active');
+  }
 
-// add hovered class in selected list item
-let list = document.querySelectorAll('.navigation li');
-function activelink() {
-list.forEach((item) => item.classList.remove('hovered'));
-this.classList.add("hovered");
-}
-list.forEach((item) => item.addEventListener('mouseover', activelink));
+  // add hovered class in selected list item
+  let list = document.querySelectorAll('.navigation li');
+  function activelink() {
+  list.forEach((item) => item.classList.remove('hovered'));
+  this.classList.add("hovered");
+  }
+  list.forEach((item) => item.addEventListener('mouseover', activelink));
 
-</script>
+  </script>
 
 </nav>
 

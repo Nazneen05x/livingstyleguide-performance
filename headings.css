@@ -31,7 +31,7 @@ body {
   h1{
     font-family: montserrat, sans-serif;
     font-style: normal;
-    font-weight:700;
+    font-weight:0;
     font-size: 2em;
     color: var(--pinda);
     display: block;
